@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0288d1" />
+
+    <!-- FONTAWESOME -->
+    <script src="https://use.fontawesome.com/b72201b1a8.js"></script>
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/shared-css/shared-style.css">
+    <link rel="stylesheet" href="./assets/css/index/index.style.css">
+    <link rel="stylesheet" href="./assets/css/index/media-index-style.css">
+
+    <!-- JS FILE -->
+    <script type="module" defer src="./assets/script/app.js"></script>
+
+    <title>dict</title>
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class="nav flex">
+        <div class="nav__logo">
+            <h1 class="nav__brand-title">dict</h1>
+        </div>
+        <div class="nav__mobile-toggler"><i class="toggler fa fa-bars" aria-hidden="true"></i></div>
+        <div class="nav__links-container">
+            <ul class="nav__links flex">
+
+                <li class="link"><i class="nav__icon fa fa-home" aria-hidden="true"></i><a href="/#">home</a>
+                </li>
+
+                <li class="link"><i class="nav__icon fa fa-book" aria-hidden="true"></i><a href="/#">course</a><span <i
+                        class="nav__link-expand fa fa-arrow-right" aria-hidden="true"></i>
+                </li>
+
+                <li class="link"><i class="nav__icon fa fa-user-o" aria-hidden="true"></i><a
+                        href="./student-page/studentPage.html">student zone</a>
+                    <i class="nav__link-expand fa fa-arrow-right" aria-hidden="true"></i>
+                </li>
+
+                <li class="link"><i class="nav__icon fa fa-bell" aria-hidden="true"></i><a href="/#">notification</a>
+                    <i class="nav__link-expand fa fa-arrow-right" aria-hidden="true"></i>
+                </li>
+
+                <li class="link"><i class="nav__icon fa fa-envelope-o" aria-hidden="true"></i><a href="/#">contact
+                        us</a><i class="nav__link-expand fa fa-arrow-right" aria-hidden="true"></i></span>
+                </li>
+                <li class="link"><i class="nav__icon fa fa-info-circle" aria-hidden="true"></i><a href="/#">about us</a>
+                    <i class="nav__link-expand fa fa-arrow-right" aria-hidden="true"></i>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <div class="hero__content">
+            <h1 class="hero__company-name"> <span>divya</span>computer classes</h1>
+            <button class="hero__enquiry-cta">enquiry</button>
+        </div>
+    </div>
+
+    <!-- DICT ADDITIONAL INFO  -->
+    <div class="dict-info flex">
+        <div class="dict__content">
+            <h3 class="dict__brand__name"> A warm welcome</h3>
+            <!-- <h3 class="dict__brand__name"> notification</h3> -->
+
+            <h1 class="dict-quote">Learning Today For A Better Tomorrow <span>...</span></h1>
+            <h4 class="brand__sub-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, sint.</h4>
+        </div>
+    </div>
+
+
+    <!-- UPDATES SECTION -->
+    <div class="update-offer">
+        <!-- <img src="./assets/media/png/corner.svg" alt="" class="image"> -->
+        <div class="update">
+            <div class="update__Desktop-v">
+                <h1 class="update__titile">notification</h1>
+                <div class="update__contents">
+                    <div class="update__lists">
+                        <!-- ALL LIST ARE RENDERD VIA JS -->
+                    </div>
+                </div>
+                <div class="update__design"></div>
+            </div>
+        </div>
+
+        <div class="offer">
+            <div class="offer__mobile-view">
+                <!-- <img src="./assets/media/png/corner.svg" alt="" class="offer__corner-design"> -->
+                <img src="./assets/media/png/bottom-corner-d.svg" alt="" class="offer__corner-design offer__cd--bottom">
+                <div class="offer__element">
+                    <div class="offer__logo"></div>
+                    <h1 class="offer__heading">Get <span>10%</span> off on selected courses </h1>
+                    <button class="offer__explore cta offer--cta">EXPLORE</button>
+                </div>
+            </div>
+            <div class="offer__desktop-view">
+                <div class="offer__desktop-content">
+                    <h3 class="offer__desktop-title">Current <span>Offer</span> </h3>
+                    <div class="offer__desktop-elements  flex">
+                        <div class="offer__desktop-lists">
+                            <div class="offer__d-list flex">
+                                <div class="offer__d-number flex">01</div>
+                                <div class="offer__d-content flex ">GET 10 % off on DCA</div>
+                            </div>
+
+                            <div class="offer__d-list flex">
+                                <div class="offer__d-number flex">02</div>
+                                <div class="offer__d-content flex">GET 12 % off on CCA</div>
+                            </div>
+
+                            <div class="offer__d-list flex">
+                                <div class="offer__d-number flex">03</div>
+                                <div class="offer__d-content flex">GET 5 % off on DTP</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="right__offer-style"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- COURSE SECTION -->
+    <div class="course">
+        <h1 class="course__heading">Our featured <span>courses</span></h1>
+        <div class="course__content flex">
+            <!-- COURSE ARE RENDERD FROM APP.JS -->
+        </div>
+    </div>
+
+    <!--  CLASS HIGHLIGHTS -->
+
+    <div class="h-lights flex">
+        <p class="h-lights-desc">With a good range of courses <span id="h__end-dsc">Dict is the perfect place for
+                learning.</span></p>
+    </div>
+
+    <div class="query">
+        <h1 class="query__heading"> contact us <span>!</span> </h1>
+        <div class="query__content flex">
+            <div class="query__header ">
+                <h1 class="query__title flex">Drop your question</h1>
+            </div>
+            <div class="query__main flex">
+                <form action="" class="query__form">
+                    <input type="text" placeholder="first-name" name="f-name" class="form-input-f" id="firsnt-name">
+                    <input type="text" placeholder="last name" class="form-input-f" id="last-name">
+                    <input type="text" placeholder="phone-number" name="" class="form-input-f" id="phone-number">
+                    <input type="text" placeholder="email-id" name="" class="form-input-f" id="email-id">
+                    <input type="text" placeholder="query" name="" class="form-input-f" id="user-query">
+                </form>
+                <button class="query__smt-btn">submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT US -->
+    <div class="about-us">
+        <div class="about__us-contents flex">
+            <div class="about-us__content">
+                <h2 class="about__title">About us</h2>
+                <h4 class="about__rej-info">Lorem ipsum dolor sit amet consectetur.</h4>
+                <h5 class="about__rej-number"> Rejistration number : 2242435468</h5>
+                <p class="about__us-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem,
+                    consequatur.</p>
+            </div>
+
+            <div class="ouraim">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequuntur eligendi dolores
+                    enim beatae sit tempora dolore dolorum laboriosam obcaecati.
+                </p>
+            </div>
+
+            <div class="contact-us">
+                <h2 class="contact__title">Contact us</h2>
+                <h5 class="contact__address"> <i class="contact-icon fa fa-globe" aria-hidden="true"></i> Lorem
+                    ipsum dolor sit amet consectetur adipisicing.</h5>
+                <h5 class="contact__phone-num"> <i class="contact-icon fa fa-phone-square" aria-hidden="true"></i>
+                    00000000222</h5>
+                <h5 class="contact__email"> <i class="contact-icon fa fa-envelope" aria-hidden="true"></i>
+                    helloworld@gmail.com</h5>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
