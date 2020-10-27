@@ -410,6 +410,10 @@
 		box-sizing: border-box;
 		height: 150px;
 	}
+	
+	.ouraim > p {
+		text-align: center;
+	}
 
 	.contact-us {
 		width: 35%;
